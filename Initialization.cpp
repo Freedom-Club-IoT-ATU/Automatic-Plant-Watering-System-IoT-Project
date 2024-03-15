@@ -8,9 +8,9 @@
 #define STEPPER_PIN4 11
 #define MOISTURE_SENSOR A0
 
-// Define constants
+
 #define STEPS_PER_REVOLUTION 200
-#define MAX_FLOW_RATE 100 // Maximum flow rate in mL/min
+#define MAX_FLOW_RATE 100
 
 
 Stepper stepper(STEPS_PER_REVOLUTION, STEPPER_PIN1, STEPPER_PIN2, STEPPER_PIN3, STEPPER_PIN4);
